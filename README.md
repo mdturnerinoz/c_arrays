@@ -35,6 +35,13 @@ array3d.c
 
 Dynamically initialized three-dimensional array.
 
+Planned Enhancements:
+=====================
+
+1. Malloc version using two and three dimensional arrays (i.e. Versus stack definition).
+
+2. Malloc version that obtain the number of arrays and bounds they contain using argc/argv in main. 
+
 **Marty Turner**
 
 **27 November 2013**
