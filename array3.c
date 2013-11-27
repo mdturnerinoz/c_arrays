@@ -3,6 +3,7 @@
   This small program can be used to view how a 3-dimenstional array works.
 
   This particular example works using fixed initialization of the variables.
+
   The problem with fixed initialization is that if the dimension(s) of the 
   array are modified (down), the initialization must be changed.
 
