@@ -1,3 +1,10 @@
+/*
+
+  This small program can be used to view how a 2-dimenstional array works.
+  This particular example works using fixed initialization of the variables.
+
+ */
+
 #include <stdio.h>
 
 int main ()
