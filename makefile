@@ -1,10 +1,10 @@
 CFLAGS  := -g -O0
 CC      := gcc
-all     : array2 array2a array3 array3a
+all     : array2 array2d array3 array3d
 array2  : array2.c
-array2a : array2a.c
+array2d : array2d.c
 array3  : array3.c
-array3a : array3a.c
+array3d : array3d.c
 clean :
-	rm -fr *~ *.dSYM/ array2 array2a array3 array3a
+	rm -fr *~ *.dSYM/ array2 array2d array3 array3d
 
