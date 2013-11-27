@@ -1,9 +1,8 @@
-SRC := array2.c array3.c
-OBJ := array2   array3
 CFLAGS := -g -O0
-all : $(OBJ)
-$(OBJ) : $(SRC)
-	$(CC) $(CFLAGS) $< -o $@
+CC     := gcc
+all : array2 array3
+array2 : array2.c
+array3 : array3.c
 clean :
-	rm -fr *~ *.dSYM/ $(OBJ)
+	rm -fr *~ *.dSYM/ array2 array3
 
