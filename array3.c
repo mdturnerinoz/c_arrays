@@ -18,7 +18,7 @@
 int main ()
 {
     /* an array with 5 rows and 3 columns*/
-	    int a[DIMENSION1][DIMENSION2][DIMENSION3] = { {0,0,0}, {1,2,3} };
+	    int a[DIMENSION1][DIMENSION2][DIMENSION3] = { {1,2,3,4}, {5,6,7,8} };
     int i, j, k;
 
     /* output each array element's value */
