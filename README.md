@@ -1,14 +1,14 @@
 c_arrays
 ========
 
+Two and three dimensional static and dynamic arrays in C.
+
 I have created this small set of C files to help one better understand multi-dimensional arrays in C. Note that if you use C++, that for the most part, these examples could be used as well. 
 
 README.md
 =========
 
 This file.
-
-Two and three static and dynamic arrays in C.
 
 Makefile
 ========
